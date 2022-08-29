@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	min-height: 100%;
+}
+
+#root {
+	min-height: 100vh;
+}
+
+.slick-list > .slick-track {
+	display: flex;
+	align-items: stretch;
+}
+
+.slick-track > .slick-slide {
+	display: flex;
+    flex: 1;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: center;
+    height: initial;
+}

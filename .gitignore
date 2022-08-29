@@ -1,0 +1,11 @@
+node_modules/
+
+.env*.local
+
+public/videos/*
+assets/videos/*
+
+!*.gitkeep
+
+.vscode/
+.idea/
